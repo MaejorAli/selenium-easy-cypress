@@ -68,7 +68,7 @@ git clone https://github.com/MaejorAli/selenium-easy-cypress.git
 2. Navigate to the project directory:  ```cd selenium-easy-cypress```
 
 
-3. nstall the dependencies:  ```npm install```
+3. Install the dependencies:  ```npm install```
 
 
 # Running the Tests
