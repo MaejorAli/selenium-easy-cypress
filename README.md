@@ -1,4 +1,5 @@
-# Cypress Automation Project                                                          [![Build Status](https://circleci.com/<gh>/<MaejorAli>/<selenium_easy_cypress>.svg?style=svg)](<https://app.circleci.com/pipelines/github/MaejorAli>)
+# Cypress Automation Project                                                          
+[![Build Status](https://circleci.com/gh/MaejorAli/selenium_easy_cypress.svg?style=svg)](https://app.circleci.com/pipelines/github/MaejorAli)
 
 This project contains automated tests for various functional scenarios on the [Selenium Easy Demo](https://demo.seleniumeasy.com/) website using Cypress and Cucumber BDD.
 
