@@ -4,6 +4,7 @@ This project contains automated tests for various functional scenarios on the [S
 
 ## Project Structure
 
+```
 project-root/
 ├── cypress/
 │ ├── fixtures/
@@ -47,7 +48,7 @@ project-root/
 |── package-lock.json 
 ├── package.json # Project dependencies
 └── README.md # Project documentation
-
+```
 
 
 ## Prerequisites
