@@ -1,5 +1,5 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
-import { SimpleFormPageMultiple } from '../pages/simple_form_multiple_input_page';
+import { simpleFormPageMultiple } from '../pages/simple_form_multiple_input_page';
 
 Given('I open the simple form page', () => {
   simpleFormPageMultiple.navigate();
