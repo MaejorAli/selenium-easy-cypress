@@ -11,7 +11,17 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: npm
-      - run: npm install 
+      - run: npm install
+      - run:
+          name: Install Xvfb
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y xvfb
+      - run:
+          name: Start Xvfb
+          command: |
+            Xvfb :99 -screen 0 1920x1080x24 &
+            export DISPLAY=:99 
       - run:
           name: Run tests
           command: npm run test 
