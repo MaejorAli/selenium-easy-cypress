@@ -7,6 +7,7 @@ This project contains automated tests for various functional scenarios on the [S
 
 ```
 project-root/
+├── circleci/
 ├── cypress/
 │ ├── fixtures/
 │ ├── integration/
@@ -84,4 +85,9 @@ git clone https://github.com/MaejorAli/selenium-easy-cypress.git
 ## Using Command Line
 
 1. Run all tests:  ``` npx cypress run ```
+
+
+## Continuous Integration
+
+- Continuous Integration with Circle CI
 
